@@ -14,5 +14,5 @@
 Route::get('/', function () {
     return view('welcome');
 });
-
+// message/のあとは好きな文字にする
 Route::get('message/{msg}', 'MessageController@show');
